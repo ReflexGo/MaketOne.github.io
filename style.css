@@ -1,0 +1,42 @@
+body {
+    margin: 0%;
+}
+.head {
+    width: 1449px;
+    height: 66px;
+    background-color: gray;
+}
+.contain-head {
+    width: 849px;
+    margin: 0 auto;
+}
+.square {
+    width: 80px;
+    height: 66px;
+    background-color: #f26c4f;
+}
+.shape {
+    position: relative;
+    left: 14px;
+    width: 78px;
+    height: 66px;
+    background-color: #f26c4f;
+    clip-path: polygon(59% 0, 0 0, 0 100%, 68% 100%, 100% 49%);
+}
+.g {
+    position: relative;
+    font-size: 35px;
+    left: 20px;
+    top: 7px;
+    
+}
+.good-inc {
+    position: relative;
+    left: 90px;
+    
+}
+.sub-head {
+    width: 1449px;
+    height: 69px;
+    background-color: #474747;
+}
