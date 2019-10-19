@@ -1,12 +1,18 @@
+@font-face {
+    font-family: "Nexa";
+    src: url(/fonts/Fontfabric\ -\ NexaRegularItalic.otf);
+    
+}
 body {
     margin: 0%;
 }
 .head {
     width: 1449px;
     height: 66px;
-    background-color: gray;
+    background-color: #373737;
 }
 .contain-head {
+    display: flex;
     width: 849px;
     margin: 0 auto;
 }
@@ -32,11 +38,78 @@ body {
 }
 .good-inc {
     position: relative;
-    left: 90px;
+    left: 20px;
+    top: 23px;
+    font-size: 18px;
+    font-family: "Nexa";
     
 }
 .sub-head {
     width: 1449px;
     height: 69px;
     background-color: #474747;
+}
+.contain-sub-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 849px;
+    margin: 0 auto;
+
+}
+.nav {
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial;
+    color: #ffffff;
+    margin: 20px;     
+}
+
+.nav:after {
+    position: relative;
+    top: 27px;
+    background-color: #f26c4f;
+    display: block;
+    content: "";
+    height: 4px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    
+}
+.nav:hover:after,
+.nav:focus:after {
+    width: 100%;
+}
+.nav:before {
+    position: relative;
+    right: 20px;
+    content: "|";
+    color: gray;
+}
+.info-contain {
+    /*почему съехало влево?*/
+    display: flex;
+    width: 849px;
+    margin: 0% auto;
+    margin-top: 15px;
+}
+.poisk {
+    width: 300px;
+    height: 46px;
+
+}
+.input {
+    width: 300px;
+    height: 46px;
+    box-shadow: 0px 1px 1px 0 #000000;
+    background-color: #ffffff;
+    padding: 10px;
+    font-family: Arial;
+}
+.info-i {
+    justify-content: flex-end;
 }
